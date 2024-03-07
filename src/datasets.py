@@ -25,10 +25,8 @@ class PairedImgDataset(Dataset):
             self.img_paths = sorted(glob.glob(data_source + '/train/train_input_2k' + '/*.*'))
             self.gt_paths = sorted(glob.glob(data_source + '/train/train_gt_2k' + '/*.*'))
         if mode == 'val':
-            # self.img_paths = sorted(glob.glob(data_source + '/train/train_input_2k' + '/*.*'))[-50:]
-            # self.gt_paths = sorted(glob.glob(data_source + '/train/train_gt_2k' + '/*.*'))[-50:]
-            self.img_paths = sorted(glob.glob(data_source + '/custom_val/input' + '/*.*'))
-            self.gt_paths = sorted(glob.glob(data_source + '/custom_val/gt' + '/*.*'))
+            self.img_paths = sorted(glob.glob(data_source + '/train/train_input_2k' + '/*.*'))[-50:]
+            self.gt_paths = sorted(glob.glob(data_source + '/train/train_gt_2k' + '/*.*'))[-50:]
 
     def __getitem__(self, index):
         img = Image.open(self.img_paths[index % len(self.img_paths)]).convert('RGB')
