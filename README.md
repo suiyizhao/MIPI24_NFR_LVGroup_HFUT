@@ -2,7 +2,7 @@
 
 > This repository is the official [MIPI Challenge 2024](http://mipi-challenge.org/MIPI2024/) implementation of Team LVGroup_HFUT in [Nighttime Flare Removal](https://codalab.lisn.upsaclay.fr/competitions/16998).
 
-> The [restoration results](https://pan.baidu.com/s/1klcUzBUyWXxZ3eHXGestUg) (Extraction Code：a9zs) of the tesing images and [pretrained model](https://pan.baidu.com/s/12hQGGC6IwQ-GhKvw7tqNUQ) (Extraction Code：l9zt) can be downloaded from Baidu Netdisk.
+> The [restoration results](https://drive.google.com/file/d/1Z_Tv9x7m8qGPEz5eD3esWPZnjNmlOZkJ/view?usp=sharing) of the tesing images and [pretrained model](https://drive.google.com/file/d/1XebSmK4P6clvrz8zAYNH9PrYaReqphvM/view?usp=sharing) can be downloaded from Google Drive.
 
 ## Usage
 
